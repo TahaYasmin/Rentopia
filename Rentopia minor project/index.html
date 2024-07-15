@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Apartments and Houses in India</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="rentopia logo.png" alt="Logo">
+        </div>
+        <div class="header-text">
+            <h1>Find Rental Apartments and Houses in India</h1>
+            <h2>Your guide to the best rental properties in India</h2>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#search-filters">Search</a></li>
+            <li><a href="#submit-property">Submit Property</a></li>
+            <li><a href="#blog-news">Blog/News</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="social-media-links">
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+    <div class="container">
+ <section class="search-filters" id="search-filters">
+            <div class="search-content box">
+                <h2>Search Property</h2>
+                <form id="searchForm">
+                    <select id="location" required>
+                        <option value="">Select Location</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Delhi">Delhi</option>
+            
+                    </select>
+                    <select id="price" required>
+                        <option value="">Select Price</option>
+                        <option value="10000">Up to ₹10,000</option>
+                        <option value="20000">Up to ₹20,000</option>
+                        <option value="30000">Up to ₹30,000</option>
+                        <option value="40000">Up to ₹40,000</option>
+                        <option value="50000">Up to ₹50,000</option>
+                       
+                    </select>
+                    <select id="roomType" required>
+                        <option value="">Select Room Type</option>
+                        <option value="1BHK">1 BHK</option>
+                        <option value="2BHK">2 BHK</option>
+                        <option value="3BHK">3 BHK</option>
+                        <option value="4BHK">4 BHK</option>
+                        
+                    </select>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="side-image">
+                <img src="search filter img.png" alt="Search Image">
+            </div>
+        </section>
+        
+
+        <section id="submit-property">
+            <div class="submit-property-content box">
+                <h2>Submit Your Property</h2>
+                <p>If you're a property owner or real estate agent, you can list your property here.</p>
+                <form id="submitPropertyForm">
+                    <input type="text" id="propertyTitle" placeholder="Property Title" required>
+                    <input type="text" id="propertyLocation" placeholder="Location" required>
+                    <input type="number" id="propertyPrice" placeholder="Price" required>
+                    <input type="number" id="propertyBedrooms" placeholder="Number of Bedrooms" required>
+                    <textarea id="propertyDescription" placeholder="Property Description" required></textarea>
+                    <button type="submit">Submit Property</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="blog-news">
+            <h2>Blog Article: Top 3 Emerging Neighborhoods for Rental Properties in India</h2>
+            
+                <h4>Published on May 18, 2024</h4>
+                
+                <p>As the Indian real estate market continues to evolve, several neighborhoods are emerging as hotspots for rental properties. Whether you're looking to invest or find a new place to call home, these areas offer great potential. Here are the top five emerging neighborhoods for rental properties in India:</p>
+                
+                <h4>Whitefield, Bengaluru</h4>
+                
+                <h5>Why It's Hot:</h5> <p>Known for its IT parks and excellent connectivity, Whitefield has transformed from a quaint suburb into a bustling tech hub. With a plethora of dining, entertainment, and shopping options, it's a favorite among young professionals and families alike.</p>
+                <h5>Rental Trends:</h5> <p>The average rent for a 2BHK apartment ranges from ₹25,000 to ₹40,000 per month.</p>
+                <h4>Thane West, Mumbai</h4>
+                
+                <h5>Why It's Hot: </h5> <p>Thane West offers a blend of urban convenience and natural beauty. With top-notch schools, hospitals, and recreational areas, it is quickly becoming a preferred destination for renters.</p>
+                <h5>Rental Trends: </h5><p>The average rent for a 2BHK apartment ranges from ₹30,000 to ₹50,000 per month.</p>
+                <h4>Gachibowli, Hyderabad</h4>
+                
+                <h5>Why It's Hot:</h5> <p>Proximity to major IT companies and educational institutions makes Gachibowli a prime choice for IT professionals and students. The area's modern infrastructure and amenities add to its appeal.</p>
+                <h5>Rental Trends:</h5> <p>The average rent for a 2BHK apartment ranges from ₹22,000 to ₹35,000 per month.</p>
+                
+                <p>Investing in or renting a property in these neighborhoods could be a wise decision, given their growth potential and excellent living conditions. Keep an eye on these areas as they continue to develop!</p>
+                
+                <h2>News Article: New Rent Control Regulations Announced in Major Indian Cities</h2>
+                <h4>Published on May 18, 2024</h4>
+                
+                <p>In a move aimed at protecting tenants and ensuring fair rental practices, the government has announced new rent control regulations across several major Indian cities. The new rules are designed to bring more transparency and fairness to the rental market.</p>
+                
+                <h5>Key Highlights:</h5>
+                
+                <h5>Rent Caps:</h5> <p>The new regulations impose a cap on annual rent increases, limiting them to a maximum of 10% per year. This aims to prevent exorbitant rent hikes and provide stability for tenants.</p>
+                <h5>Security Deposits:</h5> <p>Landlords are now restricted to demanding a maximum of two months' rent as a security deposit. This change is expected to reduce the financial burden on renters when moving into a new property.</p>
+                <h5>Standardized Agreements:</h5> <p> All rental agreements must be registered and follow a standardized format provided by the government. This will help in reducing disputes and ensuring clarity in terms of conditions for both landlords and tenants.</p>
+                <h5>Dispute Resolution:</h5> <p>A fast-track dispute resolution mechanism will be set up to handle rental disputes promptly. Special tribunals will be established in major cities to address these issues efficiently.</p>
+                <h5>Impact on the Market:</h5>
+                
+                <h5>Tenant Benefits:</h5> <p>These regulations are expected to benefit tenants by providing more predictable rental costs and reducing upfront financial strain. This could make renting more attractive compared to buying, especially in high-cost urban areas.</p>
+                <h5>Landlord Adjustments:</h5> <p> While some landlords might view these regulations as restrictive, the overall effect is anticipated to bring more stability and trust to the rental market. Landlords will need to adapt to the new rules but can benefit from a more transparent and structured system.
+                The government believes that these measures will encourage more people to opt for rental housing, thus boosting the rental market and providing a stable housing solution for the urban population.</p>
+                
+                <p>Stay tuned for further updates on how these regulations are being implemented and their impact on the rental market in your city.</p>
+                
+        </section>
+
+        <section class="gallery" id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="gallery 1.jpg" alt="Property Image 1">
+                <img src="gallery2.jpg" alt="Property Image 2">
+                <img src="gallery 3.jpg" alt="Property Image 3">
+                <img src="gallery4.jpg" alt="Property Image 3">
+                <img src="gallery5.jpg" alt="Property Image 3">
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <h4>Welcome to Rentopia!</h4>
+                <p>At Rentopia, we are dedicated to revolutionizing the rental property market in India by making the process of finding and renting homes seamless, efficient, and enjoyable. Our platform connects renters with the best properties in prime locations, offering a wide range of options to suit every need and budget.</p>
+            </div>
+        </section>
+    
+        <section id="details">
+            <div class="container">
+                <h2>Details</h2>
+                <div class="details-content">
+                    <div class="detail-item">
+                        <h3>Our Company</h3>
+                        <p>Founded in 2024, Rentopia was born out of a passion for real estate and a vision to simplify the rental experience for both tenants and landlords. Our innovative platform leverages advanced technology to provide comprehensive property listings and user-friendly search functionalities. We aim to bridge the gap between property owners and renters by offering a transparent, secure, and hassle-free rental process.</p>
+
+                        <div class="side-image">
+                            <img src="company img.png" alt="Search Image">
+                        </div>
+
+                    </div>
+                    <div class="detail-item">
+                        <h3>Our Mission</h3>
+                        <p>Our mission at Rentopia is to transform the way people find rental properties in India. We strive to:</p>
+                        <p>• Empower Renters: Provide renters with accurate, up-to-date information and tools to make informed decisions about their next home.</p>
+                        <p>• Support Landlords: Assist property owners in showcasing their listings effectively and finding reliable tenants quickly.</p>
+                        <p>• Enhance Transparency: Ensure a clear and straight forward rental process with standardized agreements and transparent terms.</p>
+                        <p>• Foster Community: Create a platform where renters and landlords can connect, communicate, and build trustworthy relationships.</p>
+                        <p>At Rentopia, we are more than just a rental property platform; we are your partners in finding the perfect home. Join us on this journey and experience the future of renting in India.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Learn more about our services and explore our extensive property listings by visiting Rentopia. We look forward to helping you find your next home!</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="map" id="map">
+            <h2>Map</h2>
+            <div id="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.799300182639!2d88.54055537476835!3d22.95761741875014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8bf5871a9e0d7%3A0x3cbdf3b9f157e355!2sMaulana%20Abul%20Kalam%20Azad%20University%20of%20Technology!5e0!3m2!1sen!2sin!4v1716022873883!5m2!1sen!2sin" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </section>
+        
+        <section class="contact-form" id="contact-form">
+            <div class="contact-content box">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="side-image">
+                <img src="contact img.png" alt="Contact Image">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#search-filters">Search</a></li>
+                    <li><a href="#submit-property">Submit Property</a></li>
+                    <li><a href="#blog-news">Blog/News</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#map">Map</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact-form">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>123 Real Estate St.</p>
+                <p>City, State, 12345</p>
+                <p>Email: info@realestate.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-media-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Real Estate. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
